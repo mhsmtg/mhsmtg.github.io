@@ -1,0 +1,178 @@
+.navMenuFixed{
+    max-width: 1252px;
+    height:75px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/*============= Background ==================*/
+.navigation {
+    -webkit-box-shadow: 0px 0px 29px 0px #86868640;
+    -moz-box-shadow: 0px 0px 29px 0px #86868640;
+    box-shadow: 0px 0px 29px 0px #00b7ff40;
+
+    padding: 15px 0;
+    background-color: #161616;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; 
+}
+
+.navigation .navbar {
+    padding: 0;
+    position: relative; 
+}
+
+/*=============The portfolio logo================== */
+.navigation .navbar .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 5px; 
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navigation .navbar .navbar-collapse {
+    position: absolute;
+    top: 158%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(134, 134, 134, 0.15);
+    -moz-box-shadow: 0px 10px 15px 0px rgba(134, 134, 134, 0.15);
+    box-shadow: 0px 10px 15px 0px rgba(134, 134, 134, 0.15);
+    padding: 3px 12px; 
+    } 
+}
+
+@media (max-width: 767px) {
+    .navigation .navbar .navbar-collapse {
+        position: absolute;
+        top: 158%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 99;
+        -webkit-box-shadow: 0px 10px 15px 0px rgba(134, 134, 134, 0.15);
+        -moz-box-shadow: 0px 10px 15px 0px rgba(134, 134, 134, 0.15);
+        box-shadow: 0px 10px 15px 0px rgba(134, 134, 134, 0.15);
+        padding: 3px 12px;
+    }
+}
+
+.navigation .navbar .navbar-nav .nav-item {
+margin-left: 30px; 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.navigation .navbar .navbar-nav .nav-item {
+    margin: 4px 0; } 
+}
+
+@media (max-width: 767px) {
+.navigation .navbar .navbar-nav .nav-item {
+    margin: 4px 0; } 
+}
+
+.navigation .navbar .navbar-nav .nav-item:first-child {
+    margin-left: 0; }
+
+.navigation .navbar .navbar-nav .nav-item a {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #8a8fa3;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; 
+}
+
+/*=============== the line that comes down =======================*/
+
+.navigation .navbar .navbar-nav .nav-item a::before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 0;
+    background-color: #3DCFD3;
+    left: 50%;
+    top: -50px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; 
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navigation .navbar .navbar-nav .nav-item a::before {
+    display: none; 
+    } 
+}
+
+@media (max-width: 767px) {
+.navigation .navbar .navbar-nav .nav-item a::before {
+    display: none; } 
+}
+
+.navigation .navbar .navbar-nav .nav-item.active a, .navigation .navbar .navbar-nav .nav-item:hover a {
+    color: #3DCFD3; 
+}
+
+.navigation .navbar .navbar-nav .nav-item.active a::before, .navigation .navbar .navbar-nav .nav-item:hover a::before {
+    height: 45px;
+}
+
+/*
+* =================================== Back to Top ====================================================
+*/
+
+.back-to-top {
+    font-size: 20px;
+    color: #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 46px;
+    border-radius: 50%;
+    border: 2px solid #586376;
+    background-color: #152136;
+    text-align: center;
+    z-index: 99;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    display: none;
+
+    box-shadow: 1px 1px 10px #246aff;
+}
+
+.back-to-top:hover {
+    color: #fff;
+    background-color: #3DCFD3;;
+    border-color: #34373d; 
+}
+
+.toTop{
+    width:30px;
+    height:30px;
+}

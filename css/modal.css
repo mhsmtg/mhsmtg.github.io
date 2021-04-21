@@ -1,0 +1,122 @@
+
+/* ============== PORTFOLIO MODALS ============== */
+
+.modal-header{
+    display: block;
+    text-align:center;
+}
+
+.modal-header,
+.modal-footer {
+    background-color: #F0F0F0;
+
+}
+
+
+.modal-header .close {
+    margin-top: -13px;
+}
+
+.close {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+    .modal-dialog {
+        width: 700px;
+    }
+}
+
+.modal header .modal-title {
+    text-align: center;
+    font-weight: 400;
+}
+
+.modal-title-description {
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 400;
+    color: #555;
+}
+
+.modal-content {
+    border-radius: 0px;
+}
+
+.modal-body img {
+    margin: 0 auto;
+
+}
+
+
+
+.modal-body p {
+    text-align: center;
+}
+
+@media (max-width: 340px) {
+    .modal-body p {
+        font-size: 14px;
+    }
+}
+
+.modal-body p.visit {
+    margin-top: 50px;
+}
+
+.modal-body #visit-btn {
+    padding: 10px;
+    color: #00009C;
+    border: 2px solid #00009C;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 40px 10px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.modal-body #visit-btn:hover {
+    color: #fff;
+    background-color: #00009C;
+}
+
+.modal-description {
+    font-size: 15px;
+    margin: 0px 25px;
+}
+
+@media (max-width: 340px) {
+    .modal-description {
+        margin: 0;
+    }
+}
+
+.modal-footer .btn {
+    border-radius: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fed136;
+}
+
+::selection {
+    text-shadow: none;
+    background: #fed136;
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    -webkit-tap-highlight-color: #fed136;
+}

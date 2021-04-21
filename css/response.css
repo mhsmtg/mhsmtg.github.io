@@ -1,0 +1,313 @@
+/*
+* ======================================================== NAV MENU ============================================
+*/
+
+
+@media (max-width:1200px){
+    .navMenuFixed #main-nav{
+        display:none;
+    }
+}
+
+.site-main-wrapper{
+    position: relative;
+}
+
+.hamburger{
+    position: absolute;
+    top:15px;
+    right:40px;
+    z-index:11;
+    background: none;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger img{
+    width:30px;
+}
+
+/*===================== THE MOBILE NAV MENU =============================================*/
+.mobile-nav{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:1001;
+    background: linear-gradient(to left top,#0088ffa8,#3dced3d7);
+    width:100%;
+    height:100%;
+    padding:2rem;
+    padding-top:5rem;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.open{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+
+
+
+.times{
+    position: fixed;
+    top:30px;
+    right:30px;
+    border:none;
+    background:none;
+    outline: none;
+    cursor: pointer;
+}
+
+.times img{
+    width:30px;
+}
+
+.mobile-nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.mobile-nav ul li{
+    margin:10px;
+    background: #000000d8;
+    border-radius: 20px;
+}
+
+.mobile-nav ul li a{
+    color:#F2F2F2;
+    text-shadow: 1px 1px 25px #ffffff;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+
+
+/*
+* ================================ CONTAINER MOBILE ======================================================
+*/
+@media (min-width: 576px){
+    .wrapper{
+        max-width:540px;
+    }
+}
+
+@media (min-width: 768px){
+    .wrapper{
+        max-width:720px;
+    }
+}
+
+@media (min-width: 992px){
+    .wrapper{
+        max-width:960px;
+    }
+}
+
+@media (min-width: 1200px){
+    .wrapper{
+        max-width:1152px;
+    }
+}
+
+
+
+
+/*
+* =============================== HEADER - ABOUT ==========================================================
+*/
+
+
+/* ============================== IPAD ========================================================*/
+@media (max-width:1200px){
+    .navMenuFixed #main-nav{
+        display: none;
+    }
+
+    header{
+        background:url("../images/sitebg2CubeX.jpg") no-repeat fixed;
+    }
+    
+    .hamburger{
+        display: block;
+    }
+
+    #animeImg{
+        width:300px;
+        margin-bottom: 50px;
+    }
+    .hero .right h1{
+        font-size: 3rem;
+    }
+	
+    .hero{
+        padding-top: 10rem;
+    }
+    header{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 81%, 0 100%);
+    }
+
+
+    section.about .about-me-img{
+        height:360px;
+    }
+
+    section.services{
+        background: linear-gradient(rgba(0, 0, 0, 0.702),rgba(0, 0, 0, 0.702)),url('../images/expeIpad.jpg') fixed;
+    }
+
+
+    section.services .card-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    section.projects .card-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    section.skills-section{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 97%, 0 100%);
+    }
+
+    section.skills-section .card-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    section.skills-section h6{
+		font-size: 12px;
+	}
+
+
+    header .typing{
+        font-size: 25px;
+    }
+	
+
+}
+
+
+/*
+* ======================================================= MOBILE ===================================================================
+*/
+
+
+@media (max-width:576px){
+    .hero{
+        flex-direction: column;
+    }
+
+    header{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 69% 95%, 0 100%);
+        background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)), url("../images/sitebg2CubeX.jpg") no-repeat fixed;
+    }
+
+    #animeImg{
+        width:220px;
+        margin-bottom: 50px;
+    }
+
+
+    .hero .right{
+        position: absolute;
+        top:230px;
+        padding:0 1rem;
+        background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9));
+    }
+
+    .hero .right {
+        margin-top: -2rem;
+    }
+	
+	.hero .right p{
+        margin-bottom:2rem;
+        line-height:1.6rem;
+	}
+
+    .hero .left{
+        /*For the picture*/
+        margin-top:-5.5rem;
+        margin-right: -6rem;
+        padding-bottom: 4rem;
+    }
+
+
+    /*About*/
+    .about-inner-wrap{
+        flex-direction: column;
+    }
+
+    .about .right{
+        text-align: center;
+        margin-top:2rem;
+    }
+
+
+
+    .about .right .social{
+        justify-content: center;
+    }
+
+    section{
+        padding: 4rem 0;
+    }
+
+    /*My experience*/
+    section.services .timeline{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top:6rem;
+    }
+
+    section.services{
+        background: linear-gradient(rgba(0, 0, 0, 0.702),rgba(0, 0, 0, 0.702)),url('../images/expeMobile.jpg') fixed;
+    }
+
+    section.pass h1{
+        line-height: 1.2;
+    }
+
+    section.pass{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 95%, 0 100%);
+        padding-bottom: 8rem;
+    }
+
+    /*Projects*/
+    section.reviews .slider .slide{
+        padding:0;
+    }
+
+    .section-heading + p{
+        margin-bottom: 3rem;
+    }
+
+    
+    /*skills*/
+	section.skills-section h6{
+		font-size: 11px;
+	}
+
+    /*Contact*/
+
+    #wrapSize{
+        width:280px;
+    }
+    header .typing{
+        font-size: 23px;
+
+    }
+}
+
+
+
+
