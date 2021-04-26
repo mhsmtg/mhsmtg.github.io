@@ -80,7 +80,7 @@ body{
 
 
 .site-main-wrapper{
-    background: linear-gradient(100deg, #494742 0%, #e0ce97 0%, #faf5ef 72%, #ffffff 100%);
+    background: linear-gradient(100deg, #494742 0%, #e0ce97 0%, #a5f6ca 72%, #ffffff 100%);
 }
 
 
@@ -186,8 +186,8 @@ header{
 
 .hero .right .nameStyle{
     font-family: 'Architects Daughter', cursive;
-    color:#3DCFD3;
-    text-shadow: 1px 1px 25px #3DCFD3;
+    color:#00FF00;
+    text-shadow: 1px 1px 25px #00FF00;
     letter-spacing: 2px;
 }
 
