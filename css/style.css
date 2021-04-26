@@ -242,7 +242,7 @@ section{
 }
 
 section.about #bground{
-    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/IDWallpaper.jpg");
+    background: linear-gradient(to bottom right, black, grey);;
     box-shadow: 1px 1px 15px #fe456a;
     border-radius: 12px;
 }
