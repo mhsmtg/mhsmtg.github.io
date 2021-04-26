@@ -35,7 +35,7 @@
     top:0;
     left:0;
     z-index:1001;
-    background: linear-gradient(to left top,#0088ffa8,#3dced3d7);
+    background: linear-gradient(to left top,#00ff00a8,#ff0000d7);
     width:100%;
     height:100%;
     padding:2rem;
@@ -165,31 +165,6 @@
         height:360px;
     }
 
-    section.services{
-        background: linear-gradient(rgba(0, 0, 0, 0.702),rgba(0, 0, 0, 0.702)),url('../images/expeIpad.jpg') fixed;
-    }
-
-
-    section.services .card-wrapper{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    section.projects .card-wrapper{
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    section.skills-section{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 97%, 0 100%);
-    }
-
-    section.skills-section .card-wrapper{
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    section.skills-section h6{
-		font-size: 12px;
-	}
-
-
     header .typing{
         font-size: 25px;
     }
@@ -262,40 +237,6 @@
     section{
         padding: 4rem 0;
     }
-
-    /*My experience*/
-    section.services .timeline{
-        grid-template-columns: repeat(1, 1fr);
-        margin-top:6rem;
-    }
-
-    section.services{
-        background: linear-gradient(rgba(0, 0, 0, 0.702),rgba(0, 0, 0, 0.702)),url('../images/expeMobile.jpg') fixed;
-    }
-
-    section.pass h1{
-        line-height: 1.2;
-    }
-
-    section.pass{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 95%, 0 100%);
-        padding-bottom: 8rem;
-    }
-
-    /*Projects*/
-    section.reviews .slider .slide{
-        padding:0;
-    }
-
-    .section-heading + p{
-        margin-bottom: 3rem;
-    }
-
-    
-    /*skills*/
-	section.skills-section h6{
-		font-size: 11px;
-	}
 
     /*Contact*/
 
