@@ -242,7 +242,7 @@ section{
 }
 
 section.about #bground{
-    background: linear-gradient(to bottom right, black, grey);;
+    background: radial-gradient(circle, black, dimgray);
     box-shadow: 1px 1px 15px #fe456a;
     border-radius: 12px;
 }
