@@ -80,7 +80,7 @@ body{
 
 
 .site-main-wrapper{
-    background: linear-gradient(100deg, #494742 0%, #e0ce97 0%, #a5f6ca 72%, #ffffff 100%);
+    background: linear-gradient(100deg, #1f6f00 2%, #47b52b 3%, #96ff96 95%, #ffffff 100%);
 }
 
 
@@ -100,8 +100,8 @@ header{
 
 
 .headLogo{
-    width:180px;
-    height:40px;
+    width:150px;
+    height:50px;
 
 }
 
@@ -186,8 +186,8 @@ header{
 
 .hero .right .nameStyle{
     font-family: 'Architects Daughter', cursive;
-    color:#00FF00;
-    text-shadow: 1px 1px 25px #00FF00;
+    color:#3bdc14;
+    text-shadow: 1px 1px 25px #3bdc14;
     letter-spacing: 2px;
 }
 
@@ -243,7 +243,7 @@ section{
 
 section.about #bground{
     background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/IDWallpaper.jpg");
-    box-shadow: 1px 1px 15px #6effe0;
+    box-shadow: 1px 1px 15px #fe456a;
     border-radius: 12px;
 }
 
@@ -252,7 +252,7 @@ section.about .writing{
     padding: 20px;
     background-color: #1e1f22;
     color: white;
-    box-shadow: 1px 1px 15px #6effe0;
+    box-shadow: 1px 1px 15px #fe456a;
     border-radius: 50px;
 }
 
@@ -271,7 +271,7 @@ section.about h1{
 }
 
 section.about h1 span{
-    color:#3DCFD3;
+    color:#3cd340;
 }
 
 
@@ -283,13 +283,13 @@ section.about h3{
 }
 
 section.about a{
-    color:#3DCFD3 !important;
+    color:#3cd340 !important;
 }
 
 section.about .nav-link.active{
     color: #fff;
     background-color: #161616 !important;
-    box-shadow: 1px 1px 15px #6effe0;
+    box-shadow: 1px 1px 15px #fe456a;
 }
 
 
@@ -297,7 +297,7 @@ section.about .tab-content{
     padding: 20px;
     background-color: #161616;
     color: white;
-    box-shadow: 1px 1px 15px #6effe0;
+    box-shadow: 1px 1px 15px #fe456a;
 }
 
 
@@ -317,7 +317,7 @@ section.about .social{
 
 section.about .social a{
     background:#161616;
-    box-shadow: 1px 1px 15px #6effe0;
+    box-shadow: 1px 1px 15px #fe456a;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -330,7 +330,7 @@ section.about .social a{
 }
 
 section.about .social a:hover{
-    background-color:#3DCFD3;
+    background-color:#3cd340;
 }
 
 
@@ -360,7 +360,7 @@ section.services .section-heading{
 }
 
 .section-heading span{
-    color:#3DCFD3;
+    color:#d85e5e;
 }
 
 
@@ -377,7 +377,7 @@ section.services .section-heading{
     margin:30px auto 30px auto;
     width:100px;
     height:2px;
-    background-color: #00b7c7;
+    background-color: #d85e5e;
 }
 
 
@@ -673,7 +673,7 @@ section.projectList .portfolio-info h3 {
 .circle {
     padding: 16px 20px;
     border-radius: 30%;
-    background-color:#3DCFD3;
+    background-color:#3cd340;
     box-shadow: 1px 1px 15px #2099a1;
     color: #fff;
     max-height: 50px;
@@ -824,7 +824,7 @@ section.skills-section ul {
 section.skills-section ul li{
 	color:#f2f2f2;
 }
-
+r
 
 section.skills-section .check-wrapper,
 section.skills-section .flex-item,
@@ -839,7 +839,7 @@ section.skills-section .skills-flex-wrapper {
 	height: 17em;
 	-ms-flex-flow: column wrap;
     flex-flow: column wrap;
-    color:#3DCFD3;
+    color:#3cd340;
 
 }
 
@@ -1000,7 +1000,7 @@ section.skills-section .skills-flex-wrapper .dev-wrapper .dev-item {
 	height: 100px;
 	line-height: 7;
     font-size: 14px;
-    box-shadow: 1px 1px 15px #6effe0;
+    box-shadow: 1px 1px 15px #fe456a;
 }
 
 
@@ -1155,14 +1155,14 @@ section.contact .card-wrapper .card h6{
     margin-bottom: 4rem;
 }
 
-/*
+
 section.contact .input-wrap{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap:2rem;
     margin-bottom: 2rem;
 }
-*/
+
 
 
 .mailLogo{
@@ -1207,7 +1207,7 @@ section.contact .btn-wrapper{
 
 
 section.contact .card1{
-    background: rgb(250, 255, 223);
+    background: rgb(150, 255, 150);
 }
 
 
@@ -1257,7 +1257,7 @@ footer .footer-socials a img{
 
 
 footer .footer-socials a:hover{
-    background-color:#3DCFD3;
+    background-color:#3cd340;
 }
 
 

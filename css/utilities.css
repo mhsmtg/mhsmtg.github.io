@@ -23,25 +23,25 @@
 }
 
 .butn-primary{
-    background:#3DCFD3;
+    background:#3cd340;
     color:#070606;
 }
 
 .butn-primary:hover{
     background:transparent;
-    border-color: #3DCFD3;
-    color:#3DCFD3;
+    border-color: #3cd340;
+    color:#3cd340;
     text-decoration: none;
 }
 
 .butn-secondary{
     background:transparent;
-    color:#3DCFD3;
-    border-color:#3DCFD3;
+    color:#3cd340;
+    border-color:#3cd340;
 }
 
 .butn-secondary:hover{
-    background:#3DCFD3;
+    background:#3cd340;
     color:var(--secondary);
 }
 
