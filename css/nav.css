@@ -102,7 +102,7 @@ margin-left: 30px;
     content: '';
     width: 1px;
     height: 0;
-    background-color: #3cd340;
+    background-color: #1ed760;
     left: 50%;
     top: -50px;
     -webkit-transform: translateX(-50%);
@@ -168,7 +168,7 @@ margin-left: 30px;
 
 .back-to-top:hover {
     color: #fff;
-    background-color: #3cd340;;
+    background-color: #1ed760;;
     border-color: #34373d; 
 }
 
