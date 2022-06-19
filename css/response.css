@@ -35,7 +35,7 @@
     top:0;
     left:0;
     z-index:1001;
-    background: linear-gradient(to left top,#00ff00a8,#ff0000d7,#1ed76040,#1ed760,#1ed760,#1ed760);
+    background: linear-gradient(to left top,#1ed760,#1ed76040,#1ed760);
     width:100%;
     height:100%;
     padding:2rem;
