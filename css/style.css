@@ -11,7 +11,7 @@
 
 
 :root{
-    --dark:#161616;
+    --dark:#000000;
     --pure:#FFFFFF;
     --ternary: #898989;
     --light:#F2F2F2;
@@ -288,14 +288,14 @@ section.about a{
 
 section.about .nav-link.active{
     color: #fff;
-    background-color: #161616 !important;
+    background-color: #000000 !important;
     box-shadow: 1px 1px 15px #fe456a;
 }
 
 
 section.about .tab-content{
     padding: 20px;
-    background-color: #161616;
+    background-color: #000000;
     color: white;
     box-shadow: 1px 1px 15px #fe456a;
 }
@@ -316,7 +316,7 @@ section.about .social{
 }
 
 section.about .social a{
-    background:#161616;
+    background:#000000;
     box-shadow: 1px 1px 15px #fe456a;
     display:flex;
     align-items: center;
@@ -330,7 +330,7 @@ section.about .social a{
 }
 
 section.about .social a:hover{
-    background-color:#3cd340;
+    background-color:#1ed760;
 }
 
 
@@ -478,7 +478,7 @@ section.e_ducation p{
 */
 
 section.skills-section{
-    background:#161616;
+    background:#000000;
     clip-path:polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
     padding-bottom: 20rem;
 }
@@ -828,7 +828,7 @@ section.contact .card-wrapper .card h1{
 
 section.contact .card-wrapper .card h6{
     font-size: 1rem;
-    color:#161616;
+    color:#000000;
     font-weight: 400;
     margin-bottom: 4rem;
 }
@@ -895,7 +895,7 @@ section.contact .card1{
 */
 
 footer{
-    background:#161616;
+    background:#000000;
     text-align: center;
     padding:5rem 0;
 }
