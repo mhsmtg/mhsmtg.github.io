@@ -131,7 +131,7 @@ margin-left: 30px;
 }
 
 .navigation .navbar .navbar-nav .nav-item.active a, .navigation .navbar .navbar-nav .nav-item:hover a {
-    color: #3cd340; 
+    color: #1ed760; 
 }
 
 .navigation .navbar .navbar-nav .nav-item.active a::before, .navigation .navbar .navbar-nav .nav-item:hover a::before {
