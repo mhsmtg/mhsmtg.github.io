@@ -828,7 +828,7 @@ section.contact .card-wrapper .card h1{
 
 section.contact .card-wrapper .card h6{
     font-size: 1rem;
-    color:#000000;
+    color:#ffffff;
     font-weight: 400;
     margin-bottom: 4rem;
 }
@@ -885,7 +885,7 @@ section.contact .btn-wrapper{
 
 
 section.contact .card1{
-    background: rgb(255, 250, 205);
+    background: rgb(0, 0, 0);
 }
 
 
