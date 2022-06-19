@@ -92,7 +92,7 @@ body{
 
 
 header{
-    background: radial-gradient(ellipse, black, black, dimgray);
+    background: radial-gradient(ellipse, black, black, black);
     z-index: 5;
     /*height:800px;*/
     clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
@@ -186,8 +186,8 @@ header{
 
 .hero .right .nameStyle{
     font-family: 'Architects Daughter', cursive;
-    color:#3bdc14;
-    text-shadow: 1px 1px 25px #3bdc14;
+    color:#1ed760;
+    text-shadow: 1px 1px 25px #1ed760;
     letter-spacing: 2px;
 }
 
@@ -242,7 +242,7 @@ section{
 }
 
 section.about #bground{
-    background: radial-gradient(circle, black, black, dimgray);
+    background: radial-gradient(circle, black, black, black);
     box-shadow: 1px 1px 15px #fe456a;
     border-radius: 12px;
 }
@@ -271,7 +271,7 @@ section.about h1{
 }
 
 section.about h1 span{
-    color:#3cd340;
+    color:#1ed760;
 }
 
 
@@ -283,7 +283,7 @@ section.about h3{
 }
 
 section.about a{
-    color:#3cd340 !important;
+    color:#1ed760 !important;
 }
 
 section.about .nav-link.active{
@@ -351,7 +351,7 @@ section.about .social a img{
 .circle {
     padding: 16px 20px;
     border-radius: 30%;
-    background-color:#3cd340;
+    background-color:#1ed760;
     box-shadow: 1px 1px 15px #2099a1;
     color: #fff;
     max-height: 50px;
@@ -517,7 +517,7 @@ section.skills-section .skills-flex-wrapper {
 	height: 17em;
 	-ms-flex-flow: column wrap;
     flex-flow: column wrap;
-    color:#3cd340;
+    color:#1ed760;
 
 }
 
